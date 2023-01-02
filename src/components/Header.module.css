@@ -1,0 +1,39 @@
+.textPrimary {
+  color: #fff;
+}
+header {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 20px;
+}
+a {
+  color: #fff;
+  font-size: small;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+a:hover {
+  text-decoration: underline;
+}
+header h1 {
+  font-size: 28px;
+  font-weight: 400;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  font-weight: 600;
+  font-size: 14px;
+}
+nav a:last-child {
+  background: #1860c9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 30px;
+}
